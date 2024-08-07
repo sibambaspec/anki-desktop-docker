@@ -7,6 +7,6 @@ services:
       - ~/.local/share/Anki2:/config/app/Anki2
       - ~/backups:/config/app/backups
     ports: 
-      - 3000:3000
+      - 3500:3500
       # Anki Connect port
       - 8765:8765
